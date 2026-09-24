@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="#">
-    <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=springboot&logoColor=white" alt="Spring Boot">
   </a>
   <a href="https://codigofacilito.com/programas/backend-java-spring-g2" target="_blank">
     <img src="https://img.shields.io/badge/Código_Facilito-Curso-00D1B2?style=flat&logo=codecademy&logoColor=white" alt="Código Facilito">
