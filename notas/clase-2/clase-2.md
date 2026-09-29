@@ -23,7 +23,7 @@ Clase ordinaria e independiente.
 
 ## Configuración del DI
 Indicada por medio de una clase. Esto puede realizarse a través de una llamada directa:
-```
+```java
 @Configuration
 public class ApplicationConfig{
   @Bean
@@ -33,7 +33,7 @@ public class ApplicationConfig{
 }
 ```
 U inyección por argumentos: 
-```
+```java
 @Configuration
 public class ApplicationConfig{
   @Bean
@@ -41,4 +41,14 @@ public class ApplicationConfig{
     return new Clase(dependencia);
   }
 }
+```
+
+## Creación y uso de ApplicationContext
+> Abordado en la clase 3, mas perteneciente a la presente (orden del repositorio)
+
+Representa el DI, se puede emplear en diversos ambientes (app standalone, web application, test enviroment, etc).
+```java
+ApplicationContext context = SpringApplication.run(ApplicationConfig.class); 
+Interfaz bean = context.getBean("bean", Interfaz.class); 
+bean.metodo(argumento1, argumento2… argumentoN);
 ```
