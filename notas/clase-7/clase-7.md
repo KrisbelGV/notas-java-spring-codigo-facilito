@@ -87,3 +87,6 @@ Compilación ejecutable para el SO. Requiere GraalVM, una JDK.
 ## Spring Modulith
 
 Plantilla de Spring para un monolito separado en módulos.
+
+## Tarea
+[Repositorio](https://github.com/KrisbelGV/turnos-api) con mi solución propuesta a los ejercicios.
