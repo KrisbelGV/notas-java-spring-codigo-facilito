@@ -52,3 +52,6 @@ ApplicationContext context = SpringApplication.run(ApplicationConfig.class);
 Interfaz bean = context.getBean("bean", Interfaz.class); 
 bean.metodo(argumento1, argumento2… argumentoN);
 ```
+
+## Repositorio oficial
+[Código visto en la clase](https://github.com/benek/Bootcamp-Spring), por el instructor, [Javier Benek](https://github.com/benek).
