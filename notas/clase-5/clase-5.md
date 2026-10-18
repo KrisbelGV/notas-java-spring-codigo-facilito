@@ -83,3 +83,6 @@ Consiste en la suma de un @Controller y @ResponseBody “sobrescribiendo” la r
 
 ## ResponseEntity
 Envoltorio de la respuesta, contiene atajos de código HTTP.
+
+## Repositorio oficial
+[Proyecto visto en la clase](https://github.com/tatianaborda/turnos-api), por la instructora, [Tatiana Borda](https://github.com/tatianaborda).
