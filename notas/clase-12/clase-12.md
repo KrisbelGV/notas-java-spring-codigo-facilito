@@ -151,3 +151,6 @@ Ataque donde el navegador envía las cookies solo.
 - **One-Time Token:** Login sin contraseña con un enlace o código de un solo uso.
 - **Passkeys/WebAuthn:** Credenciales resistentes al phishing sin contraseña.
 - **MFA integrado:** Exige varios factores, se registra cada uso y cuándo.
+
+## Repositorio oficial
+[Proyecto visto en la clase](https://github.com/geezylucas/spring-security-bootcamp-backend-java-spring-g2), por el instructor, [Gerardo Lucas](https://github.com/geezylucas).
